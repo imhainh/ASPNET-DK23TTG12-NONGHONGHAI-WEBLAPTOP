@@ -16,7 +16,7 @@ Sinh viên thực hiện: **Nông Hồng Hải.**
 3. Mở file ".\setup\scriptLAPTOPTV.sql" bằng SQL Server Management Studio sau đó nhấn "Execute" để tạo CSDL.  
 4. Mở file ".\src\WebsiteBanHang.sln" bằng Visual Studio 2022  
 5. Ở cửa số chương trình Visual Studio 2022 hiện lên:
-    - Mở file "Web.config" và tìm đến thẻ <<connectionString>>  
+    - Mở file "Web.config" và tìm đến thẻ "connectionString"  
     - Ở phần chuỗi kết nối "connectionString" (dòng 12 và 13), sửa trường Tên máy chủ SQL ("Server") bằng tên máy chủ của mình (phần Server name ở chương trình SQL Server Management Studio). Như file mẫu hiện tại đang là "Server=DESKTOP-4RK2QUL\SQLEXPRESS" (trường "DESKTOP-4RK2QUL\SQLEXPRESS" là tên máy chủ SQL).  
     - Tiến hành Buil Solution: Bấm tổ hợp phím Ctrl+Shift+B  
     - Chạy Project bằng cách bấm vào "IIS Express" trên thanh công cụ.  
